@@ -2,6 +2,8 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
 
+import "../css/highlighting.css"
+
 // import '../css/blog-post.css';
 
 export default function Template({ data }) {
