@@ -50,3 +50,42 @@ Hello
 echo -n Hello
 Hello
 ```
+
+Shell with only output lines
+
+```shell{outputLines: 2-3, 4-7}
+echo -n hello
+123
+this is 1235
+hello
+ABC=XYZ
+heloo
+hello
+hello
+```
+
+Diff for javascript
+
+```diff-javascript
++function(x,y) {
+-function(x) {
+  return x + y;
+}
+```
+
+diff for python with highlighting
+
+```diff-python{2-3}
++ def f(x,y):
+- def f(x):
+  return x + y
+```
+
+Diff no language
+
+```diff
++function(x,y) {
+-function(x) {
+  return x + y;
+}
+```
