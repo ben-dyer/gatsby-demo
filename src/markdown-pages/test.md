@@ -32,8 +32,21 @@ echo -n "Hello World"
 123
 ```
 
-```javascript{1-3}
+Javascript with highlighted lines
+
+```javascript{1-2}
 function add(x, y) {
   return x + y
 }
+```
+
+Shell with highlighted lines and output lines
+
+```shell{2-3,5}{outputLines: 2}
+echo -n "Hello World"
+123
+Hello
+123
+echo -n Hello
+Hello
 ```
